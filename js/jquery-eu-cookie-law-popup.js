@@ -125,6 +125,9 @@ $.fn.euCookieLawPopup = (function() {
 			if (typeof settings.htmlMarkup !== 'undefined') {
 				_self.params.htmlMarkup = settings.htmlMarkup;
 			}
+			if (typeof settings.compactStyle !== 'undefined') {
+			    _self.params.compactStyle = settings.compactStyle;
+			}
 		}
 
 	};
